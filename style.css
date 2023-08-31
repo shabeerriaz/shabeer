@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(247, 247, 247);
+}
+.main{
+    background-color: rgb(60, 56, 56);
+}
+
+.navbar{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px ;
+    float: left;
+    height: 70px;
+}
+.logo {
+    color: #e87706;
+    font-size: 45px;
+    font-family: Arial;
+    padding-left: 8px;
+    float: left;
+    padding-top: 17px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.aki{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ki{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 37px;
+    font-size: 25px;
+}
+
+.aki .ki a {
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.aki .ki a:hover{
+    color: #ff7200;
+} 
+.shaz{
+    background-color: rgb(15, 14, 14)
+}
+
+.HOME{
+    float: center;
+    width: 34%;
+    height: 53%;
+    margin-top: 140px;
+    margin-left: 560px;
+    margin-bottom: 200px;  
+}
+.me{
+    background-color: #ff7200;
+    font-size: 50px;
+}
+.h1{
+    text-decoration: none;
+   display: flex;
+   justify-content: center;
+   font-size: 59px ;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.ali{
+    background-color: rgb(17, 16, 16);
+}
+
+.mari{
+   
+    width: 25%;
+    height: 40%;
+    margin-top: 40px;
+    margin-left: 475px;
+    margin-bottom: 70px; 
+    
+}
+
+.pre{
+    background-color: rgb(17, 16, 16);
+    margin-bottom: bottom;
+}
+
+.phara{
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+  
+}
+
+span{
+    color: #ff7200;
+}
+
+.ph{
+    text-align: center;
+   ;
+    font-size: 32px;
+    color: rgb(217, 223, 23); 
+}
+
+.ser{
+    font-size: 65px;
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+.h{
+    width: 470px;
+    height: 12px;
+    
+    border-radius: 18px  ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #d20707;
+ 
+}
+
+.background{
+    background-color: rgb(51, 51, 110);
+   
+}
+
+.abut{
+    
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.ak{
+    margin-top: 49px;
+}
+
+.blue{
+    color: black;
+}
+
+footer{
+    background-color: #241f1f;
+}
+
+.footercontainer{
+  
+    padding: 70px 30px 20px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 19px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 77%;
+}
+
+.socialicons a i{
+    font-size: 1.4em;
+    color: #111;
+    opacity: 0.9;
+}
+
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;   
+    list-style: none;
+}
+
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.footernav ul li a:hover{
+    opacity: 2;
+    color: #ff7200 ;
+}
+
+.footerbottom{
+    background-color: #111010;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.footerbottom p{
+    color: silver;
+}
+
+.designers{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400px;
+    margin: 0px 5px;
+}
